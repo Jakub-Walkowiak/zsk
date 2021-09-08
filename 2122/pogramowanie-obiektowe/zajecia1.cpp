@@ -3,17 +3,25 @@ using namespace std;
 
 class Worker {
 	public:
-		string name = "aaa";
+		string name;
 		string lastName;
+		unsigned short int age;
 	
-		void showData() {
-			cout << "imiê";
+		void showName() {
+			cout << name << "\n" ;
 		}
 };
 
 int main() {
 	setlocale(LC_CTYPE, "polish");
+	
 	Worker pracownik;
-	cout << pracownik.name;
-	pracownik.showData();
+	pracownik.age = 15;
+	pracownik.name = "Jakub";
+	pracownik.lastName = "Kowalski";
+	
+	cout << "Imię i Nazwisko: " << pracownik.name << " " << pracownik.lastName << "\n" ;
+	cout << "Wiek: " << pracownik.age << "\n" ;
+	
+	pracownik.showName();
 }
