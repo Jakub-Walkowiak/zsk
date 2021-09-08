@@ -7,7 +7,7 @@ class Worker {
 		string lastName;
 	
 		void showData() {
-			cout << "imiê";
+			cout << "imiÃª";
 		}
 };
 
