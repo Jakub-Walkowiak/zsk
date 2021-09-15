@@ -3,17 +3,17 @@ using namespace std;
 
 class rectangle {
 	public:
-		unsigned short float height, width;
-		unsigned short float getArea();
-		unsigned short float getPerimeter();
+		float height, width;
+		float getArea();
+		float getPerimeter();
 		void displayData();
 };
 
-unsigned short float rectangle::getArea() {
+float rectangle::getArea() {
 	return height * width;
 }
 
-unsigned short float rectangle::getPerimeter() {
+float rectangle::getPerimeter() {
 	return 2 * height + 2 * width;
 }
 
