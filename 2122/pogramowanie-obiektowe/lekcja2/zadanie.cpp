@@ -8,7 +8,7 @@ class worker {
 		unsigned short int birthYear;
 	
 		void showName() {
-			cout << "Imiê: " << name << "\n";
+			cout << "ImiÃª: " << name << "\n";
 		}
 		
 		void showLastName();
@@ -21,15 +21,15 @@ void worker::showLastName() {
 }
 
 void worker::showFullName() {
-	cout << "Imiê i nazwisko: " << name << " " << lastName << "\n";
+	cout << "ImiÃª i nazwisko: " << name << " " << lastName << "\n";
 }
 
 void worker::showAllData() {
 	showFullName();
-	cout << "Narodowoœæ: " << nationality << "\nRok urodzenia: " << birthYear  << "r., P³eæ: ";
+	cout << "NarodowoÅ“Ã¦: " << nationality << "\nRok urodzenia: " << birthYear  << "r., PÂ³eÃ¦: ";
 	switch(gender) {
 		case 'm':
-			cout << "Mê¿czyzna\n";
+			cout << "MÃªÂ¿czyzna\n";
 			break;
 		case 'f':
 			cout << "Kobieta\n";
@@ -43,7 +43,7 @@ void worker::showAllData() {
 int main() {
 	setlocale(LC_CTYPE, "polish");
 	worker pracownik;
-	pracownik.name = "Micha³";
+	pracownik.name = "MichaÂ³";
 	pracownik.lastName = "Kowalski";
 	pracownik.nationality = "Polska";
 	pracownik.birthYear = 1996;
