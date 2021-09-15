@@ -3,28 +3,28 @@ using namespace std;
 
 class rectangle {
 	public:
-		unsigned short int height, width;
-		unsigned short int getArea();
-		unsigned short int getPerimeter();
+		unsigned short float height, width;
+		unsigned short float getArea();
+		unsigned short float getPerimeter();
 		void displayData();
 };
 
-unsigned short int rectangle::getArea() {
+unsigned short float rectangle::getArea() {
 	return height * width;
 }
 
-unsigned short int rectangle::getPerimeter() {
+unsigned short float rectangle::getPerimeter() {
 	return 2 * height + 2 * width;
 }
 
 void rectangle::displayData() {
-	cout << "Wysokoœæ: " << height << "\nSzerokoœæ: " << width << "\nPole: " << getArea() << "\nObwód: " << getPerimeter();
+	cout << "WysokoÅ›Ä‡: " << height << "\nSzerokoÅ›Ä‡: " << width << "\nPole: " << getArea() << "\nObwÃ³d: " << getPerimeter();
 }
 
 int main() {
 	setlocale(LC_CTYPE, "polish");
 	rectangle rectangle1;
-	cout << "Proszê podaæ wymiary prostok¹ta:\n";
+	cout << "ProszÄ™ podaÄ‡ wymiary prostokÄ…ta:\n";
 	cin >> rectangle1.height >> rectangle1.width;
 	rectangle1.displayData();
 }
