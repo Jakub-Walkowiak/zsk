@@ -15,7 +15,7 @@ struct Student {
 int main() {
 	setlocale(LC_CTYPE, "polish");
 	Student kowalski{"Janusz", "Kowalski", 10, {5, 6, 1, 1, 4}, {29, 9, 2021}};
-	cout << "Imiê i nazwisko: " << kowalski.name << " " << kowalski.lastName 
+	cout << "ImiÄ™ i nazwisko: " << kowalski.name << " " << kowalski.lastName 
 	     << "\nIdentyfikator: " << kowalski.id
 		 << "\nData urodzenia: " << kowalski.dateOfBirth.d << "-" << kowalski.dateOfBirth.m << "-" << kowalski.dateOfBirth.y
 		 << "\nOceny: ";
