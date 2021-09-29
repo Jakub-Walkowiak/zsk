@@ -16,11 +16,11 @@ class Worker {
 };
 
 void Worker::showAllData() {
-	cout << "Imiê i nazwisko: " << name << " " << lastName << "\nIdentyfikator: " << id << "\nData urodzenia: " << dateOfBirth.d << "-" << dateOfBirth.m << "-" << dateOfBirth.y << "\n";
+	cout << "ImiÃª i nazwisko: " << name << " " << lastName << "\nIdentyfikator: " << id << "\nData urodzenia: " << dateOfBirth.d << "-" << dateOfBirth.m << "-" << dateOfBirth.y << "\n";
 }
 
 void Worker::setData() {
-	cout << "Podaj imiê, nazwisko, identyfikator, i date urodzenia (dzieñ, miesi¹c, rok):\n";
+	cout << "Podaj imiÃª, nazwisko, identyfikator, i date urodzenia (dzieÃ±, miesiÂ¹c, rok):\n";
 	cin >> name >> lastName >> id >> dateOfBirth.d >> dateOfBirth.m >> dateOfBirth.y;	
 }
 
