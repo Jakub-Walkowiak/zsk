@@ -14,7 +14,7 @@ class Worker {
 };
 
 void Worker::getData() {
-	cout << "ID: " << id << "\nImiê i Nazwisko: " << name << " " << lastName << endl;
+	cout << "ID: " << id << "\nImiÃª i Nazwisko: " << name << " " << lastName << endl;
 }
 
 Worker::Worker() {
